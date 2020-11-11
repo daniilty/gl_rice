@@ -1,0 +1,50 @@
+* {
+  background-color: rgba( 0, 0, 0, 70% );
+  text-color: #f8f8f8;
+  font: "Fira Code Retina 10";
+  spacing: 0.2em;
+  padding: 3px 5px;
+  width: 512px;
+}
+window {
+  border-color: rgba( 255, 255, 255, 80% );
+  padding: 16px;
+  border: 1px;
+}
+inputbar {
+  border: 0 0 0px 0;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 0px 0 0;
+}
+
+textbox {
+  background-color: #f8f8f8;
+  border: 2px;
+  border-color: #f8f8f8;
+  padding: 8px 16px;
+}
+
+entry {
+  border: 2px;
+  padding: 16px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  padding: 16px;
+}
+
+element selected {
+  background-color: #f8f8f8;
+  text-color: #000000;
+  border-radius: 0px;
+}
